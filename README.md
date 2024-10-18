@@ -1,6 +1,8 @@
 # hashlook
 ## 安装依赖
-
+```
+pip install -r requirements.txt
+```
 ## 1.查看hash值类型和对应明文
 ```
 python hashlook.py -L dc1fd00e3eeeb940ff46f457bf97d66ba7fcc36e0b20802383de142860e76ae6
