@@ -2,7 +2,12 @@
 ## 安装依赖
 
 ## 1.查看hash值类型和对应明文
-        python hashlook.py -L dc1fd00e3eeeb940ff46f457bf97d66ba7fcc36e0b20802383de142860e76ae6
+下面展示一些 `内联代码片`。
+
+```
+python hashlook.py -L dc1fd00e3eeeb940ff46f457bf97d66ba7fcc36e0b20802383de142860e76ae6
+```
+        
         hash值类型: sm3
         明文: admin
 ## 2.查看明文的hash值
