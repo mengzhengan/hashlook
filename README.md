@@ -2,8 +2,6 @@
 ## 安装依赖
 
 ## 1.查看hash值类型和对应明文
-下面展示一些 `内联代码片`。
-
 ```
 python hashlook.py -L dc1fd00e3eeeb940ff46f457bf97d66ba7fcc36e0b20802383de142860e76ae6
 ```
@@ -11,7 +9,9 @@ python hashlook.py -L dc1fd00e3eeeb940ff46f457bf97d66ba7fcc36e0b20802383de142860
         hash值类型: sm3
         明文: admin
 ## 2.查看明文的hash值
-        python hashlook.py -M admin
+```
+python hashlook.py -M admin
+```
         md5: 21232f297a57a5a743894a0e4a801fc3
         sha1: d033e22ae348aeb5660fc2140aec35850c4da997
         sm3: dc1fd00e3eeeb940ff46f457bf97d66ba7fcc36e0b20802383de142860e76ae6
@@ -24,7 +24,9 @@ python hashlook.py -L dc1fd00e3eeeb940ff46f457bf97d66ba7fcc36e0b20802383de142860
         sha3_384: 9765a57f2010506383de91052915ce8bafbdb39f3e5a8c1a1693a0076365d37abbfd3305881ea3b5fa1426316afd7df3
         sha3_512: 5a38afb1a18d408e6cd367f9db91e2ab9bce834cdad3da24183cc174956c20ce35dd39c2bd36aae907111ae3d6ada353f7697a5f1a8fc567aae9e4ca41a9d19d
   ## 3.增加明文的hash值
-        python hashlook.py  -I './test.txct'
+```
+python hashlook.py  -I './test.txct'
+```
         1234545已存在
         admin已存在
         1341qaeq已存在
